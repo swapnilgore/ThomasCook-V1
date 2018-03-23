@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="thomascook">
+    <test name="CondorDE">
+       <parameter name="browser" value="firefox" />
+       <parameter name="baseUrl" value="https://tca:hqIVdMNvnsFk@www-stage.thomascookairlines.com/en/index2.jsp" />
+       <classes>
+           <class name="com.airlines.thomascook.scripts.tca.GeneralScenario" />
+       </classes>
+   </test>
+</suite>

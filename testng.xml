@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="thomascook">
+   <!-- <test name="CondorDE">
+       <parameter name="browser" value="firefox" />
+       <parameter name="baseUrl" value="https://condor:C7gyVWN3@www-stage.condor.com/de/index2.jsp" />
+       <classes>
+           <class name="com.airlines.thomascook.scripts.condorDE.Scenario3_LH_DE" />
+       </classes>
+   </test>-->
+	<test name="CondorUS">
+		<parameter name="browser" value="firefox" />
+		<parameter name="baseUrl" value="https://condor:C7gyVWN3@www-stage.condor.com/us/index2.jsp" />
+		<classes>
+			<class name="com.airlines.thomascook.scripts.condorUS.Scenario1_US" />
+			<class name="com.airlines.thomascook.scripts.condorUS.Scenario2_US" />
+		</classes>
+	</test>
+</suite>
